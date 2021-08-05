@@ -159,10 +159,10 @@
           title.setAttribute('class','intro-paragraph-title');
 
           container.appendChild(title);
-          let titleCond = (title.textContent === `Enable email messaging`);
+          let titleCond = (title.textContent === `The end of the generator`);
 
           button.setAttribute('class','intro-paragraph-button');
-          button.textContent = titleCond ? 'ENABLE': 'NEXT';
+          button.textContent = titleCond ? 'FINISH': 'NEXT';
 
           if (!titleCond) {
               button.addEventListener('click',(e) => {
